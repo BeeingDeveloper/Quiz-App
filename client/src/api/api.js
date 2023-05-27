@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const serverURL = 'http://localhost:5800';
+const serverURL = 'https://quizappbackend-id1o.onrender.com';
 
 // FETCH ALL QUESTIONS----------------------------------------------------------------
 export const fetchAllQuestions = async()=>{
