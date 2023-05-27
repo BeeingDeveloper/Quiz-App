@@ -4,6 +4,7 @@ import Home from './pages/Home'
 import Navbar from './components/Navbar'
 import QuizPage from './pages/QuizPage'
 import AdminPage from './pages/AdminPage'
+import Score from './pages/Score'
 
 
 
@@ -19,6 +20,7 @@ const App = () => {
         <Route path='/' element={<Home />} />
         <Route path='/quiz-page' element={<QuizPage />} />
         <Route path='/admin' element={<AdminPage />} />
+        <Route path='/score' element={<Score />} />
       </Routes>
     </div>
   )

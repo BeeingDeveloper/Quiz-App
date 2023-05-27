@@ -51,8 +51,8 @@ const AdminPage = () => {
 
 
   return (
-    <div className=' h-screen flex justify-center items-center'>
-        <div className='bg-yellow-400 p-5 rounded-md w-[85%]'>
+    <div className=' h-auto flex justify-center items-center'>
+        <div className='bg-yellow-400 p-5 rounded-md w-[85%] mt-10'>
             <h2 className='text-xl font-bold my-5'>CREATE QUESTION</h2>
             <form className='text-left font-semibold flex flex-col gap-5'>
                 <label>Question:
